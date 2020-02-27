@@ -1,0 +1,27 @@
+.post-bg {
+    background: #ffeedd;
+
+
+}
+
+.flex-tile {
+    display: flex;
+    flex-flow: row;
+    background: lightgrey;
+    margin: 20px;
+     border-radius: 10px;
+}
+
+.tile-name {
+    padding: 10px;
+    vertical-align: middle;
+
+
+}
+.tile-name-bg
+{
+    background: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}

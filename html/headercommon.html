@@ -1,0 +1,130 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+-->
+
+
+    <div class="flex-container">
+        <div class="div-left">
+            <div style="font-family: 'Montez';font-size: x-large; color: blue">ScriBBler</div>
+            <div style="font-family:'Ubuntu Mono';font-size: x-small">Explore, Imagine, Create</div>
+        </div>
+
+        <div>
+            <div style="margin-top: 10px; margin-right: 10px">
+                <button id="SignUp" class="btn btn-primary"
+                        style="background: blue; padding-top: 5px; padding-bottom: 5px"
+                        data-toggle="modal" data-target="#signupModal">Sign Up
+                </button>
+
+
+                <button id="SignIn" class="btn btn-primary"
+                        style="background: blue; padding-top: 5px; padding-bottom: 5px" data-toggle="modal"
+                        data-target="#signinModal">Sign In
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SIGNUP Modal -->
+    <div id="signupModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width: 30%">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                 </div>-->
+                <button type="button" class="close" data-dismiss="modal"
+                        style="margin-right: 10px; margin-top: 7px;color: grey;opacity: inherit">&times;
+                </button>
+
+                <h5 class="header">Get Started</h5>
+
+
+                <hr class="line">
+                <div class="modal-body">
+                    <form class="needs-validation" required>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" style="background: whitesmoke;border-radius: 0"
+                                   id="name" placeholder="Enter your name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" style="background: whitesmoke;border-radius: 0"
+                                   id="username" placeholder="Enter your username" name="pwd" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pwd">Password</label>
+                            <input type="password" class="form-control" style="background: whitesmoke;border-radius: 0"
+                                   id="pwd" placeholder="Enter your password" name="pwd" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pwd">Confirm Password</label>
+                            <input type="password" class="form-control" style="background: whitesmoke;border-radius: 0"
+                                   id="repwd" placeholder="Re-enter your password" name="pwd" required>
+                        </div>
+
+                        <button type="submit" class="button-submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- SIGN IN Modal -->
+
+    <div id="signinModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width: 30%">
+
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal"
+                        style="margin-right: 10px; margin-top: 7px;color: grey;opacity: inherit">&times;
+                </button>
+
+                <h5 class="header">Welcome Back!</h5>
+
+
+                <hr class="line">
+                <div class="modal-body">
+                    <form class="needs-validation" required>
+                        <div class="form-group">
+                            <label for="username_signin">Username</label>
+                            <input type="text" class="form-control" style="background: whitesmoke;border-radius: 0"
+                                   id="username_signin" placeholder="Enter your username" name="username" required>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="password_signin">Password</label>
+                            <input type="password" class="form-control" style="background: whitesmoke;border-radius: 0"
+                                   id="password_signin" placeholder="Enter your password" name="pwd" required>
+                        </div>
+
+
+                        <button type="submit" class="button-submit">Sign In</button>
+
+
+                        <p class="not-a-member">Not a member? <font color="blue" data-toggle="modal"
+                                                                    data-target="#signupModal"
+                                                                    onclick="hideModal('signinModal')">Sign Up</font>
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!--
+
+</head>
+<body>
+
+</body>
+</html>-->
