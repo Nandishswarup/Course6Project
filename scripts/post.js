@@ -1,4 +1,5 @@
 iseditable = false;
+count=0;
 
 function onpageload() {
     var title = document.getElementById('title');
@@ -60,3 +61,37 @@ function auto_grow(element) {
     element.style.height = "5px";
     element.style.height = (element.scrollHeight) + "px";
 }
+
+
+function addcomment()
+{
+    var button=document.getElementById('addcomment')
+    var textarea=document.getElementById('inputComment')
+    var commentsection=document.getElementById('commentsection')
+    if(textarea.value.length>0)
+    {
+
+        commentsection.innerHTML+='<p class="comment-item">'+textarea.value+'</p>'
+
+    }
+    textarea.value=''
+
+
+
+
+}
+function likeaction()
+{
+    var like=document.getElementById('likenumber')
+
+
+    count++;
+    like.innerText=count+' person likes this!'
+
+
+
+
+
+
+}
+
