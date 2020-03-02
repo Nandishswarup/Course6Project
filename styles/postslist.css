@@ -76,4 +76,14 @@
     margin-bottom: 10px;
     margin-right: 10px;
 }
+.modal-confirm
+{
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+
+    padding: 20px;
+width: 30%;
+
+}
 

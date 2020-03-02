@@ -1,0 +1,70 @@
+.align-center
+{
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    width: 100%;
+
+
+
+
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.btn-edit{
+    float: right;
+    background: red;
+    color: white;
+    font-size: small;
+
+
+}
+
+.btn-left-align{
+    float: left;
+    background: red;
+    color: white;
+    font-size: small;
+
+
+
+}
+.detail{
+    margin-top: 10px;
+    width: 100%;
+    font-size: unset;
+
+}
+.author{
+
+    display: inline-block;
+    font-size: larger;
+    font-family: fantasy;
+}
+.comment-item{
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+.input-box-nonedit
+{
+    border-color: white;
+
+}
+.input-box-edit{
+    border-color: red;
+}
